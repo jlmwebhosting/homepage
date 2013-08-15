@@ -3,18 +3,20 @@
    padding-left: 0;
    padding-right: 0;
    background:  url(../img/wavegrid.png);
+   font: 'Maven Pro', sans-serif;
  }
- /* This makes absolutely positioned elements like p, h1,
-     and some bootstrap elements placed properly. */
- #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
-   margin-top: 0 !important;
- }
+
 #top-nav {
    background: #ff9537;
-   max-height: 75px;
+   height: 75px;
    font: 20px 'Maven Pro', sans-serif;
    color: black;
    a.nav
+}
+
+#top-nav .navbar-inner{
+   background: #ff9537;
+   padding-top: 7px;
 }
 
 #top-nav a {
@@ -23,32 +25,40 @@
 #top-nav a:hover {
    color: white;
 }
-#top-nav .navbar-nav{
-   padding-top: 15px;
-}
 
 .navbar-nav li{
-   padding: 0px 20px 0px 20px;
+   padding: 8px 20px 0px 20px;
 }
-.navbar-brand{
-   margin-top:-7px;
-}
-#absolute-wrapper .hero-unit {
+
+.hero-unit {
    background: #eeeeee url(../img/owl.jpg) no-repeat 0px 0px;
    background-size: cover;
    background-position: right top;
-   width:100%;
-   height:75%%;
-   position: absolute;
+   height:700px;
  }
 
-.hero-unit #intro-text {
+.hero-unit #displaybox {
    font: 30px 'Maven Pro', sans-serif;
-   position: absolute;
-   top: 200px;
-   left:100px;
+   color: #23160e;
+   position: relative;
+   padding-top: 200px;
+   padding-left: 100px;
 }
 
 #intro-text h1{
    font: 60px 'Maven Pro', sans-serif;
 }
+
+.section {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.header {
+   text-align: center;
+   color: #23160e;
+   font: 30px 'Maven Pro', sans-serif;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+

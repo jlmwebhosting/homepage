@@ -2,42 +2,77 @@
 <html lang="en">
   
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jacques+Francois">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
-    <link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jacques+Francois">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
+	<link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <title>Helen Zeng</title>
+	<title>Helen Zeng</title>
 
-    <div class="navbar navbar-fixed-top" id="top-nav">
+	<div class="navbar navbar-fixed-top" id="top-nav">
 
 	  <div class="navbar-inner">
-	    <a href="#" class="navbar-brand"><img id="logo" src="img/hz.png"/></a>
-		<ul class="nav navbar-nav pull-right">
-		   <li><a href="#">home</a></li>
-		   <li><a href="#">about</a></li>
-		   <li><a href="#">projects</a></li>
-		   <li><a href="#">blog</a></li>
-		   <li><a href="#">twitter</a></li>
-		   <li><a href="#">say hi</a></li>
-		</ul>
+			<a href="#" class="nav navbar-brand"><img id="logo" src="img/hz.png"/></a>
+			<ul class="nav navbar-nav pull-right">
+			  <li><a href="#">home</a></li>
+			  <li><a href="#">about</a></li>
+			  <li><a href="#">projects</a></li>
+			  <li><a href="#">blog</a></li>
+			  <li><a href="#">twitter</a></li>
+			  <li><a href="#">say hi</a></li>
+			</ul>
 	  </div>
-    </div>
+	</div>
   </head>
   <body>
-    <div id="absolute-wrapper">
-      <div class="hero-unit">
-        <div id="intro-text">
-          <h1 class="heading">Hi, I'm Helen.</h1>
-          <p>I’m an engineer that’s obsessed <br/> with creating odd, fun, and <br/> occasionally interesting projects.</p>
-        </div>
-      </div>
-    </div>
+		<div class="hero-unit">
+		  <div id="displaybox">
+				<div id="introtext">
+				  <h1 class="heading">Hi, I'm Helen.</h1>
+				  <p>I’m an engineer that’s obsessed <br/> with creating odd, fun, and <br/> occasionally interesting projects.</p>
+				  <div>
+						<img src="http://placehold.it/100x100"/>
+						<img src="http://placehold.it/100x100"/>
+						<img src="http://placehold.it/100x100"/>
+						<img src="http://placehold.it/100x100"/>
+				  </div>
+				</div>
+		  </div>
+		</div>
+	  <div class="container">
+	  	<!--start about-->
+	  	<div class="row section">		  		
+					<div id="about" class="span10 offset1">
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+						<div class="header">ABOUT</div>
+
+				  	<p>Currently at Microsoft in San Francisco, helping startups scale on Azure, create apps, and generally make sense of this behemoth company. I get embarassingly excited when I talk about Backbone and Rails, and believe that HTML/JS is the best/worst thing that's ever happened.</p>
+
+				  	<center><img src="img/self.png"></center>
+					
+					</div>
+					
+				</div>
+				<!--end about-->
+				<!--start projects-->
+				<div class="row section">
+					<div id="projects" class="span10 offset1">
+						<div class="header">PROJECTS</div>
+						<p>My Github is <a href="http://github.com/hwz">here</a>, but here's a couple of things I've done recently:
+				  	<p>Catris</p>
+				  	<p>Pixel art maker</p>
+				  	<p>This wonderful Zombie Sniper site for my bff Felix</p>
+					</div>
+				</div>
+				<!--end projects-->	
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 
 </html>
+
